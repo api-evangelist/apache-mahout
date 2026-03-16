@@ -1,0 +1,35 @@
+aid: apache-mahout
+name: Apache Mahout
+description: >-
+  Apache Mahout is a distributed linear algebra framework and mathematically expressive Scala DSL designed to empower mathematicians, statisticians, and data scientists to quickly implement their own algorithms.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Machine Learning
+  - Linear Algebra
+  - Scala
+  - Distributed Computing
+created: '2026-03-16'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/apache-mahout/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: apache-mahout:apache-mahout
+    name: Apache Mahout
+    description: >-
+      Mahout provides the Samsara linear algebra DSL in Scala/Java for distributed matrix operations, along with algorithm APIs for classification, clustering, recommendation, and dimensionality reduction on Spark and other backends.
+    humanURL: https://mahout.apache.org/docs/latest/
+    tags:
+      - Scala
+      - Java
+      - Machine Learning
+      - Linear Algebra
+    properties:
+      - type: Documentation
+        url: https://mahout.apache.org/docs/latest/
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
