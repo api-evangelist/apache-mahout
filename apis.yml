@@ -7,10 +7,10 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Machine Learning
-  - Linear Algebra
-  - Scala
   - Distributed Computing
+  - Linear Algebra
+  - Machine Learning
+  - Scala
 created: '2026-03-16'
 modified: '2026-03-16'
 url: >-
@@ -23,10 +23,10 @@ apis:
       Mahout provides the Samsara linear algebra DSL in Scala/Java for distributed matrix operations, along with algorithm APIs for classification, clustering, recommendation, and dimensionality reduction on Spark and other backends.
     humanURL: https://mahout.apache.org/docs/latest/
     tags:
-      - Scala
       - Java
-      - Machine Learning
       - Linear Algebra
+      - Machine Learning
+      - Scala
     properties:
       - type: Documentation
         url: https://mahout.apache.org/docs/latest/
