@@ -34,7 +34,7 @@ apis:
         url: https://mahout.apache.org/docs/qumat/api
       - type: GettingStarted
         url: https://mahout.apache.org/docs/qumat/getting-started
-      - type: SDK
+      - type: SDKs
         url: https://pypi.org/project/qumat/
         title: Python SDK (PyPI)
       - type: GitHubRepository
