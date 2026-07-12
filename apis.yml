@@ -56,6 +56,10 @@ apis:
       - type: GitHubRepository
         url: https://github.com/apache/mahout
 common:
+  - type: VulnerabilityDisclosure
+    url: security/apache-mahout-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/apache-mahout-domain-security.yml
   - type: Portal
     url: https://mahout.apache.org/
   - type: GitHubOrganization
@@ -106,6 +110,8 @@ common:
         description: AWS Braket quantum computing service as a Qumat execution backend for cloud quantum hardware.
       - name: Apache Spark
         description: Primary distributed computing backend for Mahout Samsara linear algebra and machine learning algorithms.
+  - url: https://mahout.apache.org/blog/atom.xml
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
