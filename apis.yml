@@ -68,6 +68,17 @@ apis:
       - type: GitHubRepository
         url: https://github.com/apache/mahout
 common:
+  - type: IssueTracker
+    url: https://github.com/apache/mahout/issues
+  - type: Releases
+    url: https://github.com/apache/mahout/releases
+  - type: CodeOfConduct
+    url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/apache/mahout/blob/main/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/apache/mahout/blob/main/LICENSE
   - type: VulnerabilityDisclosure
     url: security/apache-mahout-vulnerability-disclosure.yml
   - type: DomainSecurity
