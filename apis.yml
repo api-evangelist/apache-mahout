@@ -93,6 +93,8 @@ apis:
       - type: GitHubRepository
         url: https://github.com/apache/mahout
 common:
+  - type: Website
+    url: https://www.apache.org/
   - type: IssueTracker
     url: https://github.com/apache/mahout/issues
   - type: Releases
