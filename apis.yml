@@ -36,7 +36,7 @@ x-docs-platform-confidence: medium
 x-docs-platform-checked: 2026-09-19
 tags:
   - Distributed Computing
-  - Machine-Learning
+  - Machine Learning
   - Python
   - Quantum Computing
   - Scala
@@ -46,6 +46,7 @@ tags_raw:
   - Python
   - Quantum Computing
   - Scala
+  - Machine-Learning
 created: '2026-03-16'
 modified: '2026-04-19'
 url: >-
@@ -81,7 +82,7 @@ apis:
     tags:
       - Distributed Computing
       - Linear Algebra
-      - Machine-Learning
+      - Machine Learning
       - Scala
       - Spark
     tags_raw:
@@ -90,6 +91,7 @@ apis:
       - Machine Learning
       - Scala
       - Spark
+      - Machine-Learning
     properties:
       - type: Documentation
         url: https://mahout.apache.org/docs/latest/
