@@ -1,4 +1,4 @@
-# Apache Mahout (apache-mahout)
+# Apache Mahout
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,94 +66,104 @@
 
 Apache Mahout is an open-source framework for building scalable machine learning applications. The project has evolved to include Qumat, a unified Python API for building quantum circuits that runs across multiple quantum backends including Qiskit, Cirq, and Amazon Braket, along with QDP for GPU-accelerated classical-to-quantum data encoding.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/apache-mahout/refs/heads/main/apis.yml)
+**Areas:** Distributed Computing · Machine Learning · Python · Quantum Computing · Scala
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Apache Mahout on APIs.io
 
-## Tags:
+Everything profiled for Apache Mahout is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apache-mahout/](https://apis.io/providers/apache-mahout/)** — or go straight to one of the APIs or properties below.
 
- - Distributed Computing, Machine Learning, Python, Quantum Computing, Scala
+### APIs (2)
 
-## Timestamps
+- [Qumat](https://apis.io/apis/apache-mahout/qumat/) — Qumat is a unified Python API for building and executing quantum circuits across multiple quantum computing backends including Qiskit, Cirq, and Amazon…
+- [Apache Mahout Samsara](https://apis.io/apis/apache-mahout/apache-mahout-samsara/) — Mahout Samsara is a distributed linear algebra DSL in Scala for building machine learning algorithms on Apache Spark. It provides matrix decompositions,…
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Qumat
-Qumat is a unified Python API for building and executing quantum circuits across multiple quantum computing backends including Qiskit, Cirq, and Amazon Braket. It provides a hardware-agnostic interface for quantum gate operations, parameterized circuits, measurement, and state vector retrieval.
+#### Security (2)
 
-**Human URL:** [https://mahout.apache.org/docs/qumat](https://mahout.apache.org/docs/qumat)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Apache Mahout Domain Security](https://apis.io/security/apache-mahout/apache-mahout-domain-security/)
+- [Apache Mahout Vulnerability Disclosure](https://apis.io/security/apache-mahout/apache-mahout-vulnerability-disclosure/)
 
- - Python, Quantum Computing, Quantum Circuits
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://mahout.apache.org/docs/qumat)
-- [APIReference](https://mahout.apache.org/docs/qumat/api)
-- [GettingStarted](https://mahout.apache.org/docs/qumat/getting-started)
-- [Python SDK (PyPI)](https://pypi.org/project/qumat/)
-- [GitHubRepository](https://github.com/apache/mahout)
+- [Apache Mahout Plans Pricing](https://apis.io/plans/apache-mahout/apache-mahout-plans-pricing/)
 
-### Apache Mahout Samsara
-Mahout Samsara is a distributed linear algebra DSL in Scala for building machine learning algorithms on Apache Spark. It provides matrix decompositions, collaborative filtering, clustering, and other algorithms as a mathematically expressive API.
+#### Rate limits (1)
 
-**Human URL:** [https://mahout.apache.org/docs/latest/](https://mahout.apache.org/docs/latest/)
+Published request limits.
 
-#### Tags:
+- [Apache Mahout Rate Limits](https://apis.io/rate-limits/apache-mahout/apache-mahout-rate-limits/)
 
- - Distributed Computing, Linear Algebra, Machine Learning, Scala, Spark
+#### FinOps (1)
 
-#### Properties
+What the API costs to run, by operation.
 
-- [Documentation](https://mahout.apache.org/docs/latest/)
-- [GitHubRepository](https://github.com/apache/mahout)
+- [Apache Mahout Finops](https://apis.io/finops/apache-mahout/apache-mahout-finops/)
 
-## Common Properties
+## Where to find this API
 
-- [Portal](https://mahout.apache.org/)
-- [GitHubOrganization](https://github.com/apache)
-- [GitHubRepository](https://github.com/apache/mahout)
-- [IssueTracker](https://issues.apache.org/jira/browse/MAHOUT)
-- [MailingList](https://mahout.apache.org/docs/community/mailing-lists)
-- [TermsOfService](https://www.apache.org/licenses/LICENSE-2.0)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Features
+- [Website](https://www.apache.org/)
+- [Blog](https://mahout.apache.org/blog/atom.xml)
+- [Terms of service](https://www.apache.org/licenses/LICENSE-2.0)
+- [GitHub](https://github.com/apache)
 
-| Name | Description |
-|------|-------------|
-| Hardware-Agnostic Quantum API | Qumat provides a unified API that runs the same quantum circuit code on Qiskit, Cirq, and Amazon Braket backends without modification. |
-| Quantum Gate Operations | Complete library of single-qubit gates (H, X, Y, Z, T, Rx, Ry, Rz, U) and multi-qubit gates (CNOT, Toffoli, SWAP, CSWAP). |
-| Parameterized Quantum Circuits | Support for symbolic parameters in rotation gates for variational quantum algorithms and quantum machine learning. |
-| GPU-Accelerated Data Encoding | QDP provides zero-copy tensor transfer for encoding classical data into quantum states with GPU acceleration. |
-| Distributed Linear Algebra | Samsara DSL enables large-scale matrix operations distributed across Apache Spark clusters. |
-| Collaborative Filtering | Distributed recommendation algorithms including ALS-based collaborative filtering for large-scale datasets. |
-| Clustering | Distributed K-Means, fuzzy K-Means, and spectral clustering algorithms running on Spark. |
-| Dimensionality Reduction | Distributed SVD, PCA, and random projection methods for large-scale feature reduction. |
+## API Evangelist rating
 
-## Use Cases
+**Kin Score 26.5** — thin · rubric 0.24.0 · scored 2026-10-17
 
-| Name | Description |
-|------|-------------|
-| Quantum Machine Learning | Build variational quantum algorithms and quantum neural networks using parameterized circuits via the Qumat API. |
-| Quantum Algorithm Research | Prototype and test quantum algorithms across different hardware backends without rewriting circuit code. |
-| Large-Scale Recommendation | Build distributed recommendation systems processing billions of user-item interactions using Mahout on Spark. |
-| Distributed Clustering | Cluster large datasets using distributed K-Means and other algorithms running on Apache Spark. |
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 18.4 |
 
-## Integrations
+**Agent readiness 0.6** — human-only
 
-| Name | Description |
-|------|-------------|
-| Qiskit | IBM Qiskit quantum computing framework as a Qumat execution backend for IBM quantum hardware and simulators. |
-| Cirq | Google Cirq quantum computing framework as a Qumat execution backend for Google quantum hardware. |
-| Amazon Braket | AWS Braket quantum computing service as a Qumat execution backend for cloud quantum hardware. |
-| Apache Spark | Primary distributed computing backend for Mahout Samsara linear algebra and machine learning algorithms. |
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## Maintainers
+**Regulatory alignment 14.5** — Horizontal (data, software, accessibility, platform)
 
-**FN:** Kin Lane
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apache-mahout/](https://apis.io/providers/apache-mahout/).
 
-**Email:** info@apievangelist.com
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache Mahout: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apache-mahout/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
